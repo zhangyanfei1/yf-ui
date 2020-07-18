@@ -1,10 +1,15 @@
 {
-  "name": "yf-ui",
+  "name": "zhangyanfei-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "dist/yf-ui.umd.js",
+  "author": {
+    "name": "张炎飞"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
