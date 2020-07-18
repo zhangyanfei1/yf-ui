@@ -3,7 +3,7 @@
 // 统一导出
 // 导入颜色选择器组件
 import Button from './button'
-// import Dialog from './dialog'
+import Dialog from './dialog'
 // import Input from './input'
 // import Checkbox from './checkbox'
 // import Radio from './radio'
@@ -16,7 +16,8 @@ import './fonts/font.scss'
 
 // 存储组件列表
 const components = [
-  Button
+  Button,
+  Dialog
 ]
 const install = function (Vue) {
   // 全局注册所有的组件
